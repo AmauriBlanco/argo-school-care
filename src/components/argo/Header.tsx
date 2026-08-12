@@ -29,7 +29,7 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-18 w-full max-w-6xl items-center justify-between px-5 py-3.5 sm:px-8">
-        <a href="#top" aria-label="ArgoSentIA — início">
+        <a href="#top" aria-label="ArgosSentIA — início">
           <Logo />
         </a>
 

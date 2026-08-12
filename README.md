@@ -1,10 +1,10 @@
 # Argo School Care
 
-Prompt para criação da landing page do ArgoSentIA
+Prompt para criação da landing page do ArgosSentIA
 
-Crie uma landing page moderna, profissional, responsiva e visualmente atrativa para o SaaS ArgoSentIA.
+Crie uma landing page moderna, profissional, responsiva e visualmente atrativa para o SaaS ArgosSentIA.
 
-O ArgoSentIA é uma plataforma de apoio psicológico para instituições de ensino. O cliente contratante será a escola, e o software ajudará psicólogos escolares a centralizar informações, acompanhar alunos e identificar padrões comportamentais que mereçam atenção.
+O ArgosSentIA é uma plataforma de apoio psicológico para instituições de ensino. O cliente contratante será a escola, e o software ajudará psicólogos escolares a centralizar informações, acompanhar alunos e identificar padrões comportamentais que mereçam atenção.
 
 A plataforma terá diferentes perfis de acesso:
 
@@ -122,7 +122,7 @@ Logotipo
 
 Utilize o nome corretamente escrito:
 
-ArgoSentIA
+ArgosSentIA
 
 Destaque visualmente o trecho IA, mas sem prejudicar a leitura do nome.
 
@@ -152,7 +152,7 @@ Crie um header limpo e fixo ou levemente flutuante.
 
 À esquerda:
 
- Logo do ArgoSentIA
+ Logo do ArgosSentIA
 
 No centro ou à direita:
 
@@ -198,7 +198,7 @@ Destaque visualmente palavras como:
 
 Subtítulo
 
-O ArgoSentIA conecta escola, psicólogos, professores, responsáveis e alunos em uma plataforma segura, organizada e preparada para apoiar a identificação de padrões comportamentais.
+O ArgosSentIA conecta escola, psicólogos, professores, responsáveis e alunos em uma plataforma segura, organizada e preparada para apoiar a identificação de padrões comportamentais.
 
 Botões
 
@@ -306,7 +306,7 @@ Uma plataforma para conectar observações, pessoas e acompanhamento
 
 Texto:
 
-O ArgoSentIA organiza informações do cotidiano escolar e oferece aos profissionais uma visão mais ampla do acompanhamento de cada aluno.
+O ArgosSentIA organiza informações do cotidiano escolar e oferece aos profissionais uma visão mais ampla do acompanhamento de cada aluno.
 
 Apresente três pilares:
 
@@ -526,7 +526,7 @@ Inteligência artificial como apoio, não como substituição
 
 Texto principal:
 
-No ArgoSentIA, a inteligência artificial é utilizada para organizar informações, encontrar recorrências e facilitar a análise de grandes volumes de registros.
+No ArgosSentIA, a inteligência artificial é utilizada para organizar informações, encontrar recorrências e facilitar a análise de grandes volumes de registros.
 
 Crie três pontos:
 
@@ -552,7 +552,7 @@ Privacidade e segurança desde a concepção
 
 Texto:
 
-A proteção das informações deve fazer parte de toda a experiência do ArgoSentIA, desde o controle de acesso até o armazenamento dos registros.
+A proteção das informações deve fazer parte de toda a experiência do ArgosSentIA, desde o controle de acesso até o armazenamento dos registros.
 
 Apresente os seguintes pilares:
 
@@ -588,7 +588,7 @@ Inclua espaço para links futuros:
 
  Política de Segurança
 
-12. Para quem é o ArgoSentIA
+12. Para quem é o ArgosSentIA
 
 Título:
 
@@ -610,7 +610,7 @@ Texto complementar:
 
 A plataforma pode ser configurada de acordo com a estrutura, os processos e as permissões de cada instituição.
 
-13. Seção “Por que estamos criando o ArgoSentIA?”
+13. Seção “Por que estamos criando o ArgosSentIA?”
 
 Como ainda não existem depoimentos, utilize esta seção para gerar conexão e confiança.
 
@@ -620,7 +620,7 @@ Tecnologia criada para apoiar quem cuida
 
 Texto sugerido:
 
-O ArgoSentIA nasceu da necessidade de aproximar as pessoas que participam do desenvolvimento do aluno. Acreditamos que informações organizadas, comunicação responsável e tecnologia bem aplicada podem oferecer mais contexto para o trabalho dos profissionais e mais estrutura para as instituições de ensino.
+O ArgosSentIA nasceu da necessidade de aproximar as pessoas que participam do desenvolvimento do aluno. Acreditamos que informações organizadas, comunicação responsável e tecnologia bem aplicada podem oferecer mais contexto para o trabalho dos profissionais e mais estrutura para as instituições de ensino.
 
 Destaque:
 
@@ -650,7 +650,7 @@ Conheça uma nova forma de organizar o acompanhamento psicológico escolar
 
 Texto:
 
-Solicite uma apresentação do ArgoSentIA e descubra como a plataforma poderá se adaptar à realidade da sua instituição.
+Solicite uma apresentação do ArgosSentIA e descubra como a plataforma poderá se adaptar à realidade da sua instituição.
 
 Botão:
 
@@ -678,7 +678,7 @@ Opcionalmente, inclua um formulário curto com:
 
 O formulário deve ter uma mensagem de consentimento simples:
 
-Ao enviar, você concorda em ser contatado pela equipe do ArgoSentIA sobre a plataforma.
+Ao enviar, você concorda em ser contatado pela equipe do ArgosSentIA sobre a plataforma.
 
 Não peça informações sobre alunos nesse formulário.
 
@@ -686,13 +686,13 @@ Não peça informações sobre alunos nesse formulário.
 
 Crie um FAQ em formato accordion.
 
-O ArgoSentIA substitui o psicólogo?
+O ArgosSentIA substitui o psicólogo?
 
 Não. A plataforma oferece recursos de organização e apoio à análise, mas avaliações, interpretações e decisões permanecem sob responsabilidade dos profissionais habilitados.
 
 A plataforma realiza diagnósticos?
 
-Não. O ArgoSentIA não realiza diagnósticos psicológicos ou clínicos.
+Não. O ArgosSentIA não realiza diagnósticos psicológicos ou clínicos.
 
 Quem poderá acessar as informações dos alunos?
 
@@ -706,7 +706,7 @@ A inteligência artificial toma decisões?
 
 Não. A IA poderá organizar informações e apontar possíveis padrões, mas não tomará decisões sobre alunos ou acompanhamentos.
 
-O ArgoSentIA poderá ser personalizado para cada escola?
+O ArgosSentIA poderá ser personalizado para cada escola?
 
 A plataforma deverá permitir configurações de usuários, permissões e processos conforme a estrutura da instituição.
 
@@ -720,7 +720,7 @@ A plataforma será desenvolvida considerando boas práticas de segurança, contr
 
 Já posso contratar?
 
-O ArgoSentIA está em fase inicial. Instituições interessadas podem solicitar uma demonstração ou entrar em contato para conhecer a proposta.
+O ArgosSentIA está em fase inicial. Instituições interessadas podem solicitar uma demonstração ou entrar em contato para conhecer a proposta.
 
 16. CTA final
 
@@ -732,7 +732,7 @@ Mais conexão para a escola. Mais contexto para os profissionais. Mais cuidado c
 
 Texto:
 
-Conheça o ArgoSentIA e participe da construção de uma plataforma pensada para o acompanhamento psicológico no ambiente escolar.
+Conheça o ArgosSentIA e participe da construção de uma plataforma pensada para o acompanhamento psicológico no ambiente escolar.
 
 Botão principal:
 
@@ -746,7 +746,7 @@ Falar com nossa equipe
 
 Inclua:
 
- Logo ArgoSentIA
+ Logo ArgosSentIA
 
  Pequena descrição da plataforma
 
@@ -768,7 +768,7 @@ Inclua:
 
 Texto institucional:
 
-ArgoSentIA — Tecnologia de apoio ao acompanhamento psicológico escolar.
+ArgosSentIA — Tecnologia de apoio ao acompanhamento psicológico escolar.
 
 Adicione o ano atual e os direitos reservados.
 
@@ -890,11 +890,11 @@ SEO
 
 Utilize como título da página:
 
-ArgoSentIA | Apoio psicológico e inteligência para escolas
+ArgosSentIA | Apoio psicológico e inteligência para escolas
 
 Meta description:
 
-O ArgoSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.
+O ArgosSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.
 
 Palavras-chave principais:
 
@@ -920,7 +920,7 @@ Entregue uma landing page completa, pronta para apresentação comercial, com ap
 
 A página deve fazer o visitante compreender rapidamente:
 
- O que é o ArgoSentIA
+ O que é o ArgosSentIA
 
  Para quem a plataforma foi criada
 
@@ -938,15 +938,6 @@ A página deve fazer o visitante compreender rapidamente:
 
 Priorize clareza, confiança e credibilidade. A página deve parecer adequada para ser apresentada a diretores de escolas, coordenadores, psicólogos escolares e gestores educacionais.
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f5308ce9-48c7-4a61-8a97-8fc86876697d).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 

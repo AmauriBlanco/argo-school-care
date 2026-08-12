@@ -44,15 +44,13 @@ export function DemoSection() {
     <Section id="demonstracao" tone="soft">
       <div className="grid items-start gap-12 lg:grid-cols-[1fr_1.05fr]">
         <div className="reveal">
-          <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal">
-            Acesso inicial
-          </p>
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal">Acesso inicial</p>
           <h2 className="mt-3 text-3xl font-extrabold leading-tight md:text-[2.4rem]">
             Conheça uma nova forma de organizar o acompanhamento psicológico escolar
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Solicite uma apresentação do ArgoSentIA e descubra como a plataforma poderá se adaptar à
-            realidade da sua instituição.
+            Solicite uma apresentação do ArgosSentIA e descubra como a plataforma poderá se adaptar
+            à realidade da sua instituição.
           </p>
           <p className="mt-6 rounded-xl border border-border bg-background px-5 py-4 text-sm text-muted-foreground shadow-soft">
             Estamos selecionando instituições interessadas em conhecer e contribuir com a evolução
@@ -91,7 +89,7 @@ export function DemoSection() {
           </div>
 
           <p className="mt-5 text-xs leading-relaxed text-muted-foreground">
-            Ao enviar, você concorda em ser contatado pela equipe do ArgoSentIA sobre a plataforma.
+            Ao enviar, você concorda em ser contatado pela equipe do ArgosSentIA sobre a plataforma.
             Não solicitamos informações sobre alunos neste formulário.
           </p>
 
@@ -112,12 +110,12 @@ export function DemoSection() {
 
 const faqs = [
   {
-    q: "O ArgoSentIA substitui o psicólogo?",
+    q: "O ArgosSentIA substitui o psicólogo?",
     a: "Não. A plataforma oferece recursos de organização e apoio à análise, mas avaliações, interpretações e decisões permanecem sob responsabilidade dos profissionais habilitados.",
   },
   {
     q: "A plataforma realiza diagnósticos?",
-    a: "Não. O ArgoSentIA não realiza diagnósticos psicológicos ou clínicos.",
+    a: "Não. O ArgosSentIA não realiza diagnósticos psicológicos ou clínicos.",
   },
   {
     q: "Quem poderá acessar as informações dos alunos?",
@@ -132,7 +130,7 @@ const faqs = [
     a: "Não. A IA poderá organizar informações e apontar possíveis padrões, mas não tomará decisões sobre alunos ou acompanhamentos.",
   },
   {
-    q: "O ArgoSentIA poderá ser personalizado para cada escola?",
+    q: "O ArgosSentIA poderá ser personalizado para cada escola?",
     a: "A plataforma deverá permitir configurações de usuários, permissões e processos conforme a estrutura da instituição.",
   },
   {
@@ -145,14 +143,14 @@ const faqs = [
   },
   {
     q: "Já posso contratar?",
-    a: "O ArgoSentIA está em fase inicial. Instituições interessadas podem solicitar uma demonstração ou entrar em contato para conhecer a proposta.",
+    a: "O ArgosSentIA está em fase inicial. Instituições interessadas podem solicitar uma demonstração ou entrar em contato para conhecer a proposta.",
   },
 ];
 
 export function FaqSection() {
   return (
     <Section id="faq">
-      <SectionHeading eyebrow="Perguntas frequentes" title="Dúvidas comuns sobre o ArgoSentIA" />
+      <SectionHeading eyebrow="Perguntas frequentes" title="Dúvidas comuns sobre o ArgosSentIA" />
       <div className="mx-auto mt-10 max-w-3xl">
         <Accordion type="single" collapsible className="space-y-3">
           {faqs.map((faq, i) => (
@@ -191,7 +189,7 @@ export function FinalCta() {
           alunos.
         </h2>
         <p className="mx-auto mt-5 max-w-2xl leading-relaxed text-primary-foreground/85">
-          Conheça o ArgoSentIA e participe da construção de uma plataforma pensada para o
+          Conheça o ArgosSentIA e participe da construção de uma plataforma pensada para o
           acompanhamento psicológico no ambiente escolar.
         </p>
         <div className="mt-9 flex flex-wrap justify-center gap-3">
@@ -199,7 +197,7 @@ export function FinalCta() {
             <a href="#demonstracao">Solicitar demonstração</a>
           </Button>
           <Button variant="onDarkOutline" size="lg" asChild>
-            <a href="mailto:contato@argosentia.com.br">Falar com nossa equipe</a>
+            <a href="mailto:contato@argossentia.com.br">Falar com nossa equipe</a>
           </Button>
         </div>
       </div>
@@ -221,14 +219,14 @@ export function Footer() {
         <div>
           <Logo />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-            ArgoSentIA — Tecnologia de apoio ao acompanhamento psicológico escolar, conectando
+            ArgosSentIA — Tecnologia de apoio ao acompanhamento psicológico escolar, conectando
             escola, profissionais, responsáveis e alunos.
           </p>
           <a
-            href="mailto:contato@argosentia.com.br"
+            href="mailto:contato@argossentia.com.br"
             className="mt-4 inline-block text-sm font-semibold text-teal hover:underline"
           >
-            contato@argosentia.com.br
+            contato@argossentia.com.br
           </a>
         </div>
 
@@ -281,7 +279,7 @@ export function Footer() {
 
       <div className="border-t border-border">
         <p className="mx-auto w-full max-w-6xl px-5 py-6 text-center text-xs text-muted-foreground sm:px-8">
-          © {new Date().getFullYear()} ArgoSentIA. Todos os direitos reservados.
+          © {new Date().getFullYear()} ArgosSentIA. Todos os direitos reservados.
         </p>
       </div>
     </footer>

@@ -111,7 +111,7 @@ export function SolutionSection() {
       <SectionHeading
         eyebrow="A plataforma"
         title="Uma plataforma para conectar observações, pessoas e acompanhamento"
-        description="O ArgoSentIA organiza informações do cotidiano escolar e oferece aos profissionais uma visão mais ampla do acompanhamento de cada aluno."
+        description="O ArgosSentIA organiza informações do cotidiano escolar e oferece aos profissionais uma visão mais ampla do acompanhamento de cada aluno."
       />
       <div className="mt-12 grid gap-5 md:grid-cols-3">
         {pillars.map(({ icon: Icon, title, text }, i) => (

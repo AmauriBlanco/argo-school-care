@@ -13,9 +13,9 @@ import {
 } from "@/components/argo/SectionsC";
 import { DemoSection, FaqSection, FinalCta, Footer } from "@/components/argo/SectionsD";
 
-const title = "ArgoSentIA | Apoio psicológico e inteligência para escolas";
+const title = "ArgosSentIA | Apoio psicológico e inteligência para escolas";
 const description =
-  "O ArgoSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.";
+  "O ArgosSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
-          name: "ArgoSentIA",
+          name: "ArgosSentIA",
           applicationCategory: "BusinessApplication",
           operatingSystem: "Web",
           inLanguage: "pt-BR",

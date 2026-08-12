@@ -7,12 +7,10 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import type { ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { Toaster } from "../components/ui/sonner";
-import { reportLovableError } from "../lib/lovable-error-reporting";
-
 
 function NotFoundComponent() {
   return (
@@ -39,9 +37,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -79,14 +74,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ArgoSentIA | Apoio psicológico e inteligência para escolas" },
+      { title: "ArgosSentIA | Apoio psicológico e inteligência para escolas" },
       {
         name: "description",
         content:
-          "O ArgoSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.",
+          "O ArgosSentIA conecta escolas, psicólogos, professores, responsáveis e alunos em uma plataforma de apoio ao acompanhamento psicológico escolar.",
       },
-      { name: "author", content: "ArgoSentIA" },
-      { property: "og:site_name", content: "ArgoSentIA" },
+      { name: "author", content: "ArgosSentIA" },
+      { property: "og:site_name", content: "ArgosSentIA" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -102,7 +97,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
       },
-      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
     ],
   }),
 
@@ -137,4 +132,3 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
-

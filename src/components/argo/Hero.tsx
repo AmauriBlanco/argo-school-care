@@ -12,7 +12,10 @@ const nodes = [
 
 export function Hero() {
   return (
-    <section id="top" className="surface-soft relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+    <section
+      id="top"
+      className="surface-soft relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28"
+    >
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -right-40 -top-40 h-[32rem] w-[32rem] rounded-full bg-teal-soft blur-3xl opacity-60"
@@ -31,7 +34,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            O ArgoSentIA conecta escola, psicólogos, professores, responsáveis e alunos em uma
+            O ArgosSentIA conecta escola, psicólogos, professores, responsáveis e alunos em uma
             plataforma segura, organizada e preparada para apoiar a identificação de padrões
             comportamentais.
           </p>
@@ -58,7 +61,7 @@ export function Hero() {
               src={dashboardHero}
               width={1408}
               height={1008}
-              alt="Painel do ArgoSentIA com visão geral de acompanhamentos, indicadores escolares e registros recentes com dados fictícios e anonimizados"
+              alt="Painel do ArgosSentIA com visão geral de acompanhamentos, indicadores escolares e registros recentes com dados fictícios e anonimizados"
               className="w-full rounded-xl"
             />
           </div>

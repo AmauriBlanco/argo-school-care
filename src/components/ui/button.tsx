@@ -20,8 +20,7 @@ const buttonVariants = cva(
           "bg-navy text-primary-foreground shadow-soft hover:shadow-lift hover:-translate-y-0.5 hover:bg-navy-soft",
         brandOutline:
           "border border-border bg-background text-navy shadow-soft hover:border-teal hover:bg-teal-soft hover:-translate-y-0.5",
-        onDark:
-          "bg-background text-navy shadow-lift hover:-translate-y-0.5 hover:bg-teal-soft",
+        onDark: "bg-background text-navy shadow-lift hover:-translate-y-0.5 hover:bg-teal-soft",
         onDarkOutline:
           "border border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10",
       },
@@ -38,7 +37,6 @@ const buttonVariants = cva(
     },
   },
 );
-
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {

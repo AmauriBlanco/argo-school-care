@@ -40,7 +40,11 @@ const showcase = [
     kicker: "Apoie a análise profissional",
     title: "Encontre conexões que poderiam passar despercebidas",
     text: "A plataforma organiza dados e apresenta padrões para análise, ajudando psicólogos a enxergar recorrências e mudanças comportamentais com mais contexto.",
-    bullets: ["Tendências e gráficos discretos", "Alertas de atenção", "Categorias comportamentais"],
+    bullets: [
+      "Tendências e gráficos discretos",
+      "Alertas de atenção",
+      "Categorias comportamentais",
+    ],
     image: screenAnalise,
     alt: "Painel com tendências, gráficos discretos, alertas de atenção e categorias comportamentais",
   },
@@ -56,10 +60,7 @@ export function ShowcaseSection() {
       />
       <div className="mt-14 flex flex-col gap-16 md:gap-24">
         {showcase.map((block, i) => (
-          <article
-            key={block.title}
-            className="reveal grid items-center gap-10 lg:grid-cols-2"
-          >
+          <article key={block.title} className="reveal grid items-center gap-10 lg:grid-cols-2">
             <div className={i % 2 === 1 ? "lg:order-2" : ""}>
               <p className="text-xs font-bold uppercase tracking-[0.16em] text-teal">
                 {block.kicker}
@@ -118,7 +119,10 @@ const steps = [
 export function HowItWorksSection() {
   return (
     <Section id="como-funciona" tone="soft">
-      <SectionHeading eyebrow="Como funciona" title="Da observação ao acompanhamento em quatro etapas" />
+      <SectionHeading
+        eyebrow="Como funciona"
+        title="Da observação ao acompanhamento em quatro etapas"
+      />
       <ol className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
         {steps.map((step, i) => (
           <li
@@ -156,7 +160,7 @@ export function AiSection() {
             Inteligência artificial como apoio, não como substituição
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            No ArgoSentIA, a inteligência artificial é utilizada para organizar informações,
+            No ArgosSentIA, a inteligência artificial é utilizada para organizar informações,
             encontrar recorrências e facilitar a análise de grandes volumes de registros.
           </p>
           <ul className="mt-7 space-y-3">
@@ -221,7 +225,7 @@ export function SecuritySection() {
       <SectionHeading
         eyebrow="Segurança e privacidade"
         title="Privacidade e segurança desde a concepção"
-        description="A proteção das informações deve fazer parte de toda a experiência do ArgoSentIA, desde o controle de acesso até o armazenamento dos registros."
+        description="A proteção das informações deve fazer parte de toda a experiência do ArgosSentIA, desde o controle de acesso até o armazenamento dos registros."
       />
       <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {securityPillars.map(({ icon: Icon, title, text }, i) => (
@@ -297,7 +301,7 @@ export function WhySection() {
             Tecnologia criada para apoiar quem cuida
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            O ArgoSentIA nasceu da necessidade de aproximar as pessoas que participam do
+            O ArgosSentIA nasceu da necessidade de aproximar as pessoas que participam do
             desenvolvimento do aluno. Acreditamos que informações organizadas, comunicação
             responsável e tecnologia bem aplicada podem oferecer mais contexto para o trabalho dos
             profissionais e mais estrutura para as instituições de ensino.
