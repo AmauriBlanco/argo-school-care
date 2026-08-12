@@ -27,10 +27,10 @@ export function Hero() {
           </p>
 
           <h1 className="mt-6 text-[2.1rem] font-extrabold leading-[1.1] md:text-[3.25rem]">
-            Transforme informações do ambiente escolar em{" "}
-            <span className="text-teal">acompanhamento</span> mais{" "}
-            <span className="text-green">humano</span> e{" "}
-            <span className="text-gradient-brand">inteligente</span>
+            Nenhum
+            <span className="text-teal"> aluno </span>
+            <span className="text-green">sofrendo </span> em
+            <span className="text-gradient-brand"> silêncio</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">

@@ -46,12 +46,6 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href="#demonstracao"
-            className="rounded-md px-2 py-1 text-sm font-medium text-muted-foreground transition-colors hover:text-navy"
-          >
-            Entrar
-          </a>
           <Button variant="brand" asChild>
             <a href="#demonstracao">Solicitar demonstração</a>
           </Button>
@@ -88,9 +82,6 @@ export function Header() {
             ))}
           </nav>
           <div className="mt-4 flex flex-col gap-2">
-            <Button variant="brandOutline" asChild onClick={() => setOpen(false)}>
-              <a href="#demonstracao">Entrar</a>
-            </Button>
             <Button variant="brand" asChild onClick={() => setOpen(false)}>
               <a href="#demonstracao">Solicitar demonstração</a>
             </Button>

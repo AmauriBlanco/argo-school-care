@@ -5,5 +5,5 @@ type LogoProps = {
 };
 
 export function Logo({ className = "" }: LogoProps) {
-  return <img src={logoArgosSentIA} alt="ArgosSentIA" className={`h-9 w-auto ${className}`} />;
+  return <img src={logoArgosSentIA} alt="ArgosSentIA" className={`h-11 w-auto ${className}`} />;
 }
