@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SITE_URL } from "@/lib/site";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import { Header } from "@/components/argo/Header";
 import { Hero } from "@/components/argo/Hero";
 import { TrustStrip, ProblemSection, SolutionSection } from "@/components/argo/SectionsA";
@@ -56,6 +57,8 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  useScrollReveal();
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

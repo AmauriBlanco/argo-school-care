@@ -180,6 +180,18 @@
   opacity: 0;
   transform: translateY(18px);
   animation: reveal-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-play-state: paused;
+  will-change: opacity, transform;
+}
+
+/*
+ * Higher-specificity plain selector (not @utility) so it reliably beats
+ * .reveal's paused state regardless of Tailwind's generated layer order.
+ * useScrollReveal (src/hooks/use-scroll-reveal.ts) adds .is-visible via
+ * IntersectionObserver as each element scrolls into view.
+ */
+.reveal.is-visible {
+  animation-play-state: running;
 }
 
 @keyframes reveal-in {
